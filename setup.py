@@ -16,6 +16,6 @@ setup(
    maintainer_email='joshroppo@gmail.com',
 
    scripts=['src/fec2din', 'src/fec2run'],
-   
+   install_requires=['boto>=2.9.5', 'argparse>=1.2.1'],
 
 )
